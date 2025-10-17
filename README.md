@@ -18,9 +18,6 @@ Ce projet React implémente une application pour rechercher des personnages de R
 * Fetch API
 * CSS pour le style (inline et classes simples)
 
-## Capture d'écran
-
-*(Voir le dossier `images/` pour les captures du projet)*
 
 ## Liens du projet
 
