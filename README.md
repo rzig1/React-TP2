@@ -1,16 +1,60 @@
-# React + Vite
+# TP2 – Ajout d'une pagination à l'application Rick and Morty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Ce projet React implémente une application pour rechercher des personnages de Rick and Morty avec une pagination. L'application utilise l'API officielle de Rick and Morty pour récupérer les données des personnages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités
 
-## React Compiler
+* Recherche de personnages par nom
+* Pagination des résultats avec boutons "Précédent" et "Suivant"
+* Gestion des erreurs et affichage lorsque aucun résultat n'est trouvé
+* Interface simple et responsive
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies utilisées
 
-## Expanding the ESLint configuration
+* React
+* Hooks : useState, useEffect
+* Fetch API
+* CSS pour le style (inline et classes simples)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Capture d'écran
+
+*(Voir le dossier `images/` pour les captures du projet)*
+
+## Liens du projet
+
+* **GitHub :** [https://github.com/rzig1/React-TP2](https://github.com/rzig1/React-TP2)
+* **Netlify (déploiement) :** [https://react-tp2-abdelhedirziga.netlify.app/](https://react-tp2-abdelhedirziga.netlify.app/)
+
+## Étapes pour lancer le projet
+
+1. Cloner le dépôt :
+
+```bash
+git clone https://github.com/rzig1/React-TP2.git
+```
+
+2. Installer les dépendances :
+
+```bash
+npm install
+```
+
+3. Lancer l'application en développement :
+
+```bash
+npm start
+```
+
+4. Construire le projet pour la production :
+
+```bash
+npm run build
+```
+
+
+
+## Auteur
+
+AbdelHedi Rziga
