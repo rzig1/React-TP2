@@ -1,0 +1,10 @@
+:root { font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; }
+body { background-color: #242424; color: rgba(255, 255, 255, 0.87); }
+.container { max-width: 900px; margin: 2rem auto; text-align: center; }
+.search-bar { margin: 2rem 0; }
+.search-bar input { width: 50%; padding: 0.5rem; font-size: 1rem; }
+.character-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.character-card { background-color: #3c3c3c; border-radius: 8px; overflow: hidden; }
+.character-card img { width: 100%; display: block; }
+.character-card h2 { font-size: 1.2rem; margin: 0.5rem; }
+.character-card p { font-size: 0.9rem; margin: 0.5rem; }
